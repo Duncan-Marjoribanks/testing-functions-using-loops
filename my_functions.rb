@@ -14,6 +14,8 @@ def find_item(array, item)
   for item in array
     if "Hufflepuff"
       return true
+    else
+      return false 
     end
   end
 end
