@@ -11,11 +11,10 @@ def sum_array(numbers)
 end
 
 def find_item(array, item)
-  for item in array
-    if "Hufflepuff"
+  for house in array
+    if house == item
       return true
-    else
-      return false 
     end
   end
+  return false
 end
