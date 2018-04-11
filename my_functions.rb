@@ -9,3 +9,11 @@ def sum_array(numbers)
   end
   return total
 end
+
+def find_item(array, item)
+  for item in array
+    if "Hufflepuff"
+      return true
+    end
+  end
+end
