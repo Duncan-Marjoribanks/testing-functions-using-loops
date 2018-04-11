@@ -32,15 +32,15 @@ class My_Functions < MiniTest::Test
 
   # Write a function that has one parameter hash
   # It should return the first key from the hash
-  # def test_get_first_key
-  #   wallets = {
-  #     'Sandy' => 12,
-  #     'John'  => 10,
-  #     'Finn'  => 1356,
-  #     'Zsolt' => 1
-  #   }
-  #   result = get_first_key( wallets )
-  #   assert_equal( 'Sandy', result )
-  # end
+  def test_get_first_key
+    wallets = {
+      'Sandy' => 12,
+      'John'  => 10,
+      'Finn'  => 1356,
+      'Zsolt' => 1
+    }
+    result = get_first_key( wallets )
+    assert_equal( 'Sandy', result )
+  end
 
 end
